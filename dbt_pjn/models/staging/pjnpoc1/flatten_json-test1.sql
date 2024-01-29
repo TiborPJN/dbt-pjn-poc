@@ -1,11 +1,3 @@
---WITH source AS (
---  SELECT data AS mydata
---)
---SELECT
---  json_extract(mydata, '$.id_number') AS id_number FROM source
+--select data.id_number from pjnevents.consumerorderactivatedevent_consumerorderactivatedevent 
+select c.data.id_number, i.paid_at from pjnevents.consumerorderactivatedevent_consumerorderactivatedevent c, c.instalments i  
 
-WITH pjnpoc1 AS (
-  SELECT JSON_EXTRACT(data, '$.id_number') AS item_json
-  FROM
-    {{ source('pjnpoc1', 'consumerorderactivatedevent_consumerorderactivatedevent') }}
-),
