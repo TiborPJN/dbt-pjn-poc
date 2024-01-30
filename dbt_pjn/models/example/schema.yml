@@ -1,4 +1,3 @@
-
 version: 2
 
 sources:
@@ -6,5 +5,5 @@ sources:
     database: dbtworkshop
     schema: pjnevents
     tables:
-      - name: consumerorderactivatedevent_consumerorderactivatedevent
-      
+      - name: durable_consumerorderactivatedevent
+      - name: durable_consumerordermanualpaymentfailedevent

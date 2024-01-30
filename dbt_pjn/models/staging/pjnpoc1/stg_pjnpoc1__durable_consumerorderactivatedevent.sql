@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from {{ source('pjnpoc1', 'consumerorderactivatedevent_consumerorderactivatedevent') }}
+    select * from {{ source('pjnpoc1', 'durable_consumerorderactivatedevent') }}
 
 ),
 
