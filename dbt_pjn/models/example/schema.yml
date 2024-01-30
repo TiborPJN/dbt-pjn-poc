@@ -7,3 +7,26 @@ sources:
     tables:
       - name: durable_consumerorderactivatedevent
       - name: durable_consumerordermanualpaymentfailedevent
+      - name: durable_consumerorderpaymentsuccessevent
+      - name: durable_consumerorderrefundedevent
+      - name: durable_consumerorderscheduledpaymentfailedevent
+      - name: durable_consumerpaymentwalletupdatedevent
+      - name: durable_consumerprofileverifiedevent
+      - name: durable_financedebtcollectionevent
+      - name: durable_paymentcardtokenizedevent
+      - name: durable_paymentwalletcreatedevent
+      - name: durable_paymentwalletupdatedevent
+      - name: durable_riskfrauddetectorresultevent
+      - name: durable_riskselfiepersonverifyevent
+      - name: pjnevents.durable_riskselfiepersonverifyevent2
+      - name: durable_riskspendlimitupdateevent
+      
+
+
+
+
+
+
+
+
+
