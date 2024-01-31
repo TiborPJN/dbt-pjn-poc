@@ -20,6 +20,27 @@ sources:
       - name: durable_riskselfiepersonverifyevent
       - name: pjnevents.durable_riskselfiepersonverifyevent2
       - name: durable_riskspendlimitupdateevent
+      - name: volatile_marketingdealimpressionevent
+      - name: volatile_consumeremailverifiedevent
+      - name: volatile_consumerforgotpasswordevent
+      - name: volatile_consumerorderactivatedevent
+      - name: volatile_consumerordercancelledevent
+      - name: volatile_consumerordermanualpaymentfailedevent
+      - name: volatile_consumerorderpaymentsuccessevent
+      - name: volatile_consumerorderpaymentupcomingevent
+      - name: volatile_consumerorderrefundedevent
+      - name: volatile_consumerorderscheduledpaymentfailedevent
+      - name: volatile_consumerpaymentwalletupdatedevent
+      
+
+
+
+
+
+
+
+
+
       
 
 
