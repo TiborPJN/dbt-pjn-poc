@@ -31,6 +31,12 @@ sources:
       - name: volatile_consumerorderrefundedevent
       - name: volatile_consumerorderscheduledpaymentfailedevent
       - name: volatile_consumerpaymentwalletupdatedevent
+      - name: qldb_merchantbalance2024
+      - name: qldb_contracts2024
+      - name: rds_customer360_sandbox_account_emailaddress
+      
+      
+
       
 
 
