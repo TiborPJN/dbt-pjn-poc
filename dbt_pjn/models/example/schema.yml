@@ -10,7 +10,6 @@ sources:
       - name: durable_consumerorderpaymentsuccessevent
       - name: durable_consumerorderrefundedevent
       - name: durable_consumerorderscheduledpaymentfailedevent
-      - name: durable_consumerpaymentwalletupdatedevent
       - name: durable_consumerprofileverifiedevent
       - name: durable_financedebtcollectionevent
       - name: durable_paymentcardtokenizedevent
@@ -34,7 +33,11 @@ sources:
       - name: qldb_merchantbalance2024
       - name: qldb_contracts2024
       - name: rds_customer360_sandbox_account_emailaddress
+      - name: rds_customer360_sandbox_account_emailconfirmation
+      - name: durable_consumerpaymentwalletupdatedevent
       
+      
+
       
 
       

@@ -1,0 +1,41 @@
+version: 2
+
+sources:
+  - name: pjnpoc1
+    database: dbtworkshop
+    schema: pjnevents
+    tables:
+      - name: rds_users_sandbox_pjn_users
+      
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
